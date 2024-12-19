@@ -11,6 +11,7 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "prettier",
     "eslint-config-prettier",
+    "plugin:storybook/recommended",
   ],
   ignorePatterns: [
     "dist",
@@ -20,7 +21,7 @@ module.exports = {
     "public",
     "package-lock.json",
   ],
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   plugins: [
     "react",
     "react-hooks",
@@ -124,4 +125,4 @@ module.exports = {
       version: "detect",
     },
   },
-}
+};
